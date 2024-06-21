@@ -1,4 +1,5 @@
 {
+<<<<<<<< HEAD:config/demo.config.json
   "development": {
     "username": "root",
     "password": "password",
@@ -20,4 +21,27 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
+========
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "database_development",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "database_production",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+>>>>>>>> 5d7f937e8b0df55500106730dbc83b8e93eb5b59:config/config.json
 }
